@@ -218,7 +218,7 @@ body{
     background-color: rgba(0, 66, 18, 0.9);
     border-radius: 10px;
     color: aliceblue;
-    margin: 7rem .5rem 7rem .5rem;
+    margin: 1.5rem .5rem 2rem .5rem;
     border-radius: 40px;
     text-align: center;
     padding-bottom: .7rem;
@@ -239,6 +239,22 @@ body{
 }
 
 /**teaching**/
+
+/**picturs**/
+.geology{
+    display: flex;
+    flex-direction: column;   
+    margin: 1rem 0; 
+}
+.geology div{
+    margin: 0 0 .5rem;
+}
+.geology div img{
+    width: 80%;
+    margin: 0 10%;
+}
+/**picturs**/
+
 
 /**footer**/
 
