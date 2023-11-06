@@ -165,54 +165,55 @@ body{
         width: 70%;
         margin: 2rem 15% 0;
         font-size: .9rem;
-        font-weight: bold;
+        font-weight: 600;
     }
     .eight a{
         width: 70%;
         margin: 0 15%;
         font-size: .9rem;
-        font-weight: bold;
+        font-weight: 600;
     }
     .nine a{
         width: 70%;
         margin: 1rem 15% 0;
         font-size: .9rem;
-        font-weight: bold;
+        font-weight: 600;
     }
     .seven span{
         width: 20%;
         margin: 0 40%;
         font-size: .6rem;
-        font-weight: bold;
+        font-weight: 600;
     }
     .eight span{
         width: 20%;
         margin: 0 40%;
         font-size: .6rem;
+        font-weight: 600;
     }
 }
 @media(max-width:478px){
     .seven span{
         font-size: .4rem;
-        font-weight: bold;
+        font-weight: 600;
     }
     .eight span{
         font-size: .4rem;
-        font-weight: bold;
+        font-weight: 600;
     } 
 }
 @media(max-width:456px){
     .seven a{
         font-size: .6rem;
-        font-weight: bold;
+        font-weight: 600;
     }
     .eight a{
         font-size: .6rem;
-        font-weight: bold;
+        font-weight: 600;
     }
     .nine a{
         font-size: .6rem;
-        font-weight: bold;
+        font-weight: 600;
     }
 }
 
@@ -228,7 +229,7 @@ body{
     border-radius: 40px;
     text-align: center;
     padding-bottom: .7rem;
-    font-family: vazir-bold;
+    font-family: vazir 600;
     font-size: 1.4rem;
     line-height: 1.5rem;
 }
@@ -248,8 +249,7 @@ body{
 
 /**picturs**/
 .geology{
-    display: flex;
-    flex-direction: column;   
+    display: none;  
     margin: 1rem 0; 
 }
 .geology div{
@@ -258,6 +258,12 @@ body{
 .geology div img{
     width: 80%;
     margin: 0 10%;
+}
+@media(max-width:500px){
+    .geology{
+        display: flex;
+        flex-direction: column;  
+    }
 }
 /**picturs**/
 
