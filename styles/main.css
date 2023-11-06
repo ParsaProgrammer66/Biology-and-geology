@@ -164,49 +164,55 @@ body{
     .seven a{
         width: 70%;
         margin: 2rem 15% 0;
-        font-size: .7rem;
+        font-size: .9rem;
+        font-weight: bold;
     }
     .eight a{
         width: 70%;
         margin: 0 15%;
-        font-size: .7rem;
+        font-size: .9rem;
+        font-weight: bold;
     }
     .nine a{
         width: 70%;
         margin: 1rem 15% 0;
-        font-size: .7rem;
+        font-size: .9rem;
+        font-weight: bold;
     }
     .seven span{
         width: 20%;
         margin: 0 40%;
-        font-size: .5rem;
+        font-size: .6rem;
+        font-weight: bold;
     }
     .eight span{
         width: 20%;
         margin: 0 40%;
-        font-size: .5rem;
-    }
-    .main{
-        font-size: .7rem;
+        font-size: .6rem;
     }
 }
 @media(max-width:478px){
     .seven span{
-        font-size: .3rem;
+        font-size: .4rem;
+        font-weight: bold;
     }
     .eight span{
-        font-size: .3rem;
+        font-size: .4rem;
+        font-weight: bold;
     } 
 }
 @media(max-width:456px){
     .seven a{
-        font-size: .5rem;
+        font-size: .6rem;
+        font-weight: bold;
     }
     .eight a{
-        font-size: .5rem;
+        font-size: .6rem;
+        font-weight: bold;
     }
     .nine a{
-        font-size: .5rem;
+        font-size: .6rem;
+        font-weight: bold;
     }
 }
 
